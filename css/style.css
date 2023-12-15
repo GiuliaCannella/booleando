@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* generics */
+body {
+    font-family: sans-serif;
+}
+
+/* utilis */
+
+.container {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.row {
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+}
+
+.colonna {
+    flex-basis: calc(100% / 3);
+    flex-direction: column;
+    border: 2 px dashed black;
+    min-height: 60px;
+}
+
+.card {
+    /* position: relative; */
+    
+}
+
+.container-img {
+    position: relative;
+}
+
+.prezzo {
+    color: white;
+    background-color:red;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 1em;
+}
+
+.sostenibilità {
+    color: white;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    margin-bottom: 1em;
+    margin-right: 2em;
+}
+
+
+
+.w-100 {
+    width: 100%;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.mr {
+    margin-left: 50%;
+}
+
+.container-info h2 {
+    font-size: 1.2em;
+}
+
+.container-info p {
+    font-size: 1em;
+}
+
+.text-red {
+    color: red;
+}
